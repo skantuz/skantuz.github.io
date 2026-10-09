@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diario Videos IA</title>
+<meta name="description" content="Herramienta personal de Sergio López para publicar sus propios vídeos cortos generados con IA.">
+<style>
+  :root { --fondo:#ffffff; --texto:#1d1b26; --suave:#5d5a6b; --acento:#6d28d9; --borde:#e6e3ef; }
+  @media (prefers-color-scheme: dark) { :root { --fondo:#14121c; --texto:#ece9f5; --suave:#a9a4bb; --acento:#a78bfa; --borde:#2b2838; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fondo); color:var(--texto); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:2rem; margin:0 0 .25rem; } h2 { margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--borde); }
+  p.sub { color:var(--suave); margin-top:0; } a { color:var(--acento); }
+  nav a { margin-right:1rem; } small { color:var(--suave); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Diario Videos IA</h1>
+  <p class="sub">Herramienta personal de Sergio López (<a href="https://github.com/skantuz">@skantuz</a>)</p>
+  <nav><a href="#privacidad">Privacidad</a><a href="#terminos">Términos</a><a href="#contacto">Contacto</a></nav>
+
+  <p>Diario Videos IA es un programa de uso personal que genera cada día vídeos cortos verticales
+  (guion, imágenes y voz creados con modelos de inteligencia artificial que se ejecutan en equipos propios)
+  y, solo cuando su autor lo aprueba manualmente, los sube a <strong>sus propias cuentas</strong> de YouTube,
+  Facebook, Instagram y TikTok (en TikTok, como borrador). No es un servicio abierto al público ni tiene otros usuarios.</p>
+
+  <h2 id="privacidad">Política de privacidad</h2>
+  <p><small>Última actualización: 9 de octubre de 2026</small></p>
+  <ul>
+    <li><strong>Quién la usa:</strong> únicamente su autor, con sus propias cuentas. La aplicación no recoge datos de otras personas.</li>
+    <li><strong>Qué datos maneja:</strong> los tokens de acceso que cada plataforma (Google/YouTube, Meta, TikTok) entrega al autorizarla
+      y los identificadores básicos de esas cuentas (por ejemplo el id de usuario o de página), necesarios para subir los vídeos.</li>
+    <li><strong>Para qué:</strong> exclusivamente para subir los vídeos del autor a sus cuentas cuando él lo pide. No se leen mensajes,
+      seguidores, estadísticas ni contenido de terceros.</li>
+    <li><strong>Dónde se guardan:</strong> en archivos que solo puede leer el usuario del autor, en sus equipos personales. No se envían a
+      ningún otro servidor que no sea la API oficial de cada plataforma.</li>
+    <li><strong>Compartición:</strong> los datos no se venden, ceden ni comparten con nadie.</li>
+    <li><strong>Eliminación:</strong> el acceso puede revocarse en cualquier momento desde la configuración de cada plataforma
+      (permisos de apps de Google, integraciones de empresa de Meta, apps autorizadas de TikTok); al revocarlo, los tokens dejan de funcionar
+      y se borran de los equipos del autor.</li>
+  </ul>
+
+  <h2 id="terminos">Términos de servicio</h2>
+  <ul>
+    <li>Diario Videos IA es una herramienta privada de uso personal, sin garantía de ningún tipo.</li>
+    <li>El contenido publicado es responsabilidad de su autor, que revisa cada vídeo antes de aprobar su publicación y cumple las
+      normas de cada plataforma, incluida la declaración de contenido generado con IA cuando corresponde.</li>
+    <li>La herramienta solo usa las API oficiales de YouTube, Meta y TikTok y respeta sus términos y límites de uso.</li>
+    <li>Estos términos pueden cambiar; la fecha de actualización de la política de privacidad indica la versión vigente.</li>
+  </ul>
+
+  <h2 id="contacto">Contacto</h2>
+  <p>Para cualquier consulta sobre esta aplicación o sobre estos datos, abre un <em>issue</em> en
+  <a href="https://github.com/skantuz/skantuz.github.io/issues">github.com/skantuz/skantuz.github.io</a>.</p>
+</main>
+</body>
+</html>
